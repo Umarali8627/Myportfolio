@@ -7,6 +7,7 @@ const items = [
     title: "GenAI & RAG Engineer",
     org: "Freelance & Independent Projects",
     points: [
+      "Built MultiAgent LLM systems with LangChain, LangGraph and Automation.",
       "Built RAG chatbots with LangChain + LangGraph and vector retrieval.",
       "Shipped FastAPI inference services for real-time LLM workloads.",
       "Designed prompt and retrieval pipelines lifting accuracy 35%+.",
