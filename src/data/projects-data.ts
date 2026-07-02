@@ -21,6 +21,25 @@ export type Project = {
 };
 
 export const projects: Project[] = [
+      {
+    slug: "Airline Reservation System",
+    title: "Airline Reservation System",
+    blurb:
+      "A full-stack web application for managing airline reservations with real-time seat availability and booking functionality.",
+    fullDescription:
+      "The Airline Reservation System is a comprehensive web application designed to streamline the process of booking flights. It features a user-friendly interface for searching and selecting flights, real-time seat availability updates, and a secure payment processing system. The application is built with a modern tech stack to ensure optimal performance and scalability.",
+    features: [
+      "Real-time seat availability updates",
+      "Secure payment processing",
+      "User-friendly interface for flight search and selection",
+      "Admin panel for managing flights and bookings",
+    ],
+    tags: ["React", "FastAPI", "Postgres SQL", "Stripe"],
+    github: "https://github.com/Umarali8627/Airline-Reservation-System",
+    accent: "from-green-500/30 to-teal-500/30",
+    metric: "100% uptime",
+    image:"/projects/Airline.png"
+  },
   {
     slug: "eye-lab",
     title: "EYE LAB — Eye Disease Classifier",
@@ -157,4 +176,6 @@ export const projects: Project[] = [
     metric: "96% accuracy",
     image:"/projects/Email.png"
   },
+
+    
 ];
